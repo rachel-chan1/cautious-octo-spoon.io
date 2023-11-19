@@ -8,10 +8,9 @@
     <h1>Hello</h1>
     <img src="Loading Screen.png">
 
-    <button type="button">Click Me!</button>
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+
 .container {
   position: relative;
   width: 100%;
@@ -29,7 +28,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #555;
+  background-color: #255420;
   color: white;
   font-size: 16px;
   padding: 12px 24px;
@@ -42,16 +41,23 @@
 .container .btn:hover {
   background-color: black;
 }
+
 </style>
 </head>
 <body>
 
-<h2>Button on Image</h2>
-<p>Add a button to an image:</p>
+    <div class="container">
+        <img src="Loading Screen.png" alt="Loading Screen" style="width:100%">
+        <button class="btn" onclick = 
+            "alert('correct')">
+            Answer
+        </button>
+    </div>
 
-<div class="container">
-  <img src="Loading Screen.png" alt="Loading Screen" style="width:100%">
-  <button class="btn">Button</button>
-</div>
+    <button type = "button" onclick =  
+        "alert('correct')">  
+        Click Here  
+    </button>
+
 </body>
 </html>
